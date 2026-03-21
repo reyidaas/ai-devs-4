@@ -1,5 +1,8 @@
 import path from 'path';
 import { fork } from 'child_process';
+import { config } from 'dotenv';
+
+config();
 
 const main = (): void => {
   const [,,filename] = process.argv;

@@ -5,12 +5,17 @@
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
-    "start": "node ./src/index.ts"
+    "start": "tsx ./src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^25.5.0"
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
   }
 }
